@@ -65,8 +65,7 @@ public class UserController {
     log.info("deleteUser");
     User user = new User();
     user.setId(id);
-    userService.delete(user);
-    return "Spring boot Gradle delete";
+    return userService.delete(user);
   }
 
 }
