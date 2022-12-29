@@ -1,4 +1,4 @@
-package com.javadeveloperzone.component.user;
+package com.javadeveloperzone;
 
 import lombok.Data;
 
