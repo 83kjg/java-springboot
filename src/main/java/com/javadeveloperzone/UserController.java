@@ -47,7 +47,7 @@ public class UserController {
     User user = new User();
     user.setId(id);
     user.setName(name);
-    userService.insert(user);
+    return userService.insert(user);
   }
 
   @PutMapping("/update_user/{id}")
