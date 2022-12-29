@@ -25,8 +25,7 @@ public class UserService {
 
   public User insert(User user){
     this.userDao.insert(user);
-    //return user;
-    return "redirect:/users";
+    return user;
   }
 
   public User update(User user){
