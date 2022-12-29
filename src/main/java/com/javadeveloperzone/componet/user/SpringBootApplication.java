@@ -1,4 +1,4 @@
-package com.javadeveloperzone;
+package com.javadeveloperzone.component.user;
 
 import org.springframework.boot.SpringApplication;
 
